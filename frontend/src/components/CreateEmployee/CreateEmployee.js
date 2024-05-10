@@ -15,7 +15,7 @@ const CreateEmployee = () => {
         e.preventDefault();
             
         const formObject = {
-            "f_image": "https://example.com/image.jpg",
+            "f_image": "https://image.com/image.jpg",
             "f_Name": name,
             "f_Email": email,
             "f_Mobile": mobile,
