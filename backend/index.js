@@ -17,9 +17,7 @@ app.use('/api/auth', authRoutes);
 
 app.use('/api', employeeRoutes);
 
-app.get('/',(req,res)=>{
-    res.json("Hello");
-});
+app.use('/',helloRoute);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
