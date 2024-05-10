@@ -3,6 +3,8 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const authRoutes = require('./routes/authRoutes');
 const employeeRoutes = require('./routes/employeeRoutes'); 
+const helloRoute = require('./routes/helloRoute');
+
 const connectDB = require('./utils/db');
 
 
